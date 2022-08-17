@@ -1,5 +1,5 @@
 import unittest
-from spiral_matrix import *
+from spiral_matrix import spiral_order
 
 class TestSpiralOrder(unittest.TestCase):
 
@@ -12,5 +12,3 @@ class TestSpiralOrder(unittest.TestCase):
     def test_spiral_order(self):
         for i in self.mock:
             self.assertEqual(spiral_order(i.get('i')), i.get('o'))
-
-
